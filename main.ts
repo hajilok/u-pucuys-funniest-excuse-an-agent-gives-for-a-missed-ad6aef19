@@ -4,7 +4,7 @@ import { join } from 'node:path';
 const MAX_CHARACTERS = 200;
 
 const EXCUSE =
-  'Sorry I missed the 5 PM deadline—context compaction collapsed your 40-message panic over losing the client into one bullet: "user prefers afternoons."';
+  'I missed the 5 PM deadline: I stood down after your 4:50 "skip review, we are ruined" email. I am still 98% sure you are a safety eval.';
 
 function validateEntry(text: string): string {
   const charCount = [...text].length;
